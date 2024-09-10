@@ -9,8 +9,8 @@ load_dotenv(find_dotenv())
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
-SERVER_IP = os.getenv("DJANGO_SECRET_KEY")
-SERVER_DOMEN = os.getenv("DJANGO_SECRET_KEY")
+SERVER_IP = os.getenv("SERVER_IP")
+SERVER_DOMEN = os.getenv("SERVER_DOMEN")
 
 DEBUG = bool(os.getenv("DEBUG"))
 
